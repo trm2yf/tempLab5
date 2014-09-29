@@ -1,2 +1,6 @@
 __author__ = 'trm2yf'
-print "hello world"
+def greeting(msg):
+    print msg
+
+if __name__ == '__main__':
+    greeting("hello")
